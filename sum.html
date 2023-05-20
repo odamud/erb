@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <h1><br>합 구하기</br></h1>
+        <title>
+            1부터 n까지의 합
+        </title>
+
+        <script>
+            n=Number(prompt("n=?"))
+          sum=0;
+          start=new Date()
+          for(i=1;i<=n;i++) {
+            sum+=i;
+            //document.write("i="+i+", sum is "+sum+"<br>");
+          }
+          end=new Date()
+          document.write("sum is "+sum+"<br>");
+          document.write("Computing Time is "+(end-start)+"ms")
+        </script>
+
+    </head>
+
+
+    <body>
+       
+    </body>
+</html>
